@@ -22,6 +22,21 @@ body {
 img {
   display: block;
   width: 100%;
+  float: left;
+  padding: ;
+}
+
+figure {
+  width: 300px;
+  float: right;
+  margin: auto;
+  padding-top: 6px;
+}
+
+figcaption {
+  border-bottom: 3px solid #333;
+  border-top: 3px solid #333;
+  font-style: italic;
 }
 
 .wrapper {
@@ -60,7 +75,6 @@ main {
 
 p {
   margin: 0;
-
   text-indent: 1.3em;
 }
 
