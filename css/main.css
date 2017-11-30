@@ -92,9 +92,11 @@ figure {
   width: 300px;
   float: right;
   padding-top: 6px;
-  margin-right: auto;
   border-top: 3px solid #333;
   display: block;
+  margin-left: .5em;
+  margin-right: -7em;
+  margin-bottom: auto;
 }
 
 figcaption {
@@ -105,7 +107,8 @@ figcaption {
 }
 
 blockquote {
-  margin: auto;
+  margin: .5em;
+  margin-left: -7em;
   float: left;
   font-size: 1.5rem;
   width: 300px;
@@ -125,4 +128,5 @@ main > p:first-child::first-letter {
   border-bottom: 3px solid #333;
   color: #f2f2f2;
   margin-right: .12em;
+  margin-left: -.5em;
 }
